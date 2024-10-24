@@ -24,7 +24,8 @@ export function Quiz() {
             if (question.ans === ans) {
                 e.target.classList.add("correct");
                 setLock(true);
-                setScore((score) => score + 1);
+                setScore(prevScore => prevScore + 1);
+
             } else {
                 e.target.classList.add("wrong");
                 setLock(true);
@@ -35,13 +36,14 @@ export function Quiz() {
 
     const next = () => {
         if (lock === true) {
-            setIndex(index + 1);
-            setQuestion(quiz[index + 1]);
+            if (index + 1 < quiz.length) {
+                setIndex(index + 1);
+                setQuestion(quiz[index + 1]);
+            }        
             setLock(false);
-            option_array.map((option) => {
+            option_array.forEach(option => {
                 option.current.classList.remove("wrong");
                 option.current.classList.remove("correct");
-                return null;
             });
         }
     };
