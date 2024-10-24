@@ -36,7 +36,7 @@ export function Quiz() {
     const next = () => {
         if (lock === true) {
             setIndex(index + 1);
-            setQuestion(quiz[index]);
+            setQuestion(quiz[index + 1]);
             setLock(false);
             option_array.map((option) => {
                 option.current.classList.remove("wrong");
