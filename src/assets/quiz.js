@@ -32,7 +32,7 @@ export const quiz = [
         ans: 1
     },
     {
-        question: "Quelle est la capitale de la Nigeria ?",
+        question: "Quelle est la capitale du Nigeria ?",
         option1: "Abuja",
         option2: "Lagos",
         option3: "Accra",
@@ -62,6 +62,53 @@ export const quiz = [
         option3: "Nairobi",
         option4: "Kigali",
         ans: 1
+    },
+    {
+        question: "Quelle est la capitale de l'Italie ?",
+        option1: "Venise",
+        option2: "Rome",
+        option3: "Florence",
+        option4: "Milan",
+        ans: 2
+    },
+    {
+        question: "Quelle est la capitale de l'Allemagne ?",
+        option1: "Berlin",
+        option2: "Munich",
+        option3: "Francfort",
+        option4: "Hambourg",
+        ans: 1
+    },
+    {
+        question: "Quelle est la capitale du Canada ?",
+        option1: "Toronto",
+        option2: "Vancouver",
+        option3: "Ottawa",
+        option4: "Montréal",
+        ans: 3
+    },
+    {
+        question: "Quelle est la capitale du Japon ?",
+        option1: "Kyoto",
+        option2: "Osaka",
+        option3: "Tokyo",
+        option4: "Hiroshima",
+        ans: 3
+    },
+    {
+        question: "Quelle est la capitale de l'Australie ?",
+        option1: "Sydney",
+        option2: "Melbourne",
+        option3: "Canberra",
+        option4: "Brisbane",
+        ans: 3
+    },
+    {
+        question: "Quelle est la capitale de la Russie ?",
+        option1: "Saint-Pétersbourg",
+        option2: "Moscou",
+        option3: "Kazan",
+        option4: "Novosibirsk",
+        ans: 2
     }
 ];
-
